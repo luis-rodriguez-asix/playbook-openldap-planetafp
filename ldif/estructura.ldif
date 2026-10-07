@@ -1,0 +1,16 @@
+dn: ou=usuarios,dc=planetafp,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: uid=alumno,ou=usuarios,dc=planetafp,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Alumno Practicas
+sn: Alumno
+uid: alumno
+userPassword: password123
+loginShell: /bin/bash
+uidNumber: 10001
+gidNumber: 10001
+homeDirectory: /home/alumno
